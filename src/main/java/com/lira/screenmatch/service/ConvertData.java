@@ -2,9 +2,9 @@ package com.lira.screenmatch.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lira.screenmatch.model.SeriesData;
+import com.lira.screenmatch.interfaces.IConvertData;
 
-public class ConvertData implements IConvertData{
+public class ConvertData implements IConvertData {
     private ObjectMapper mapper = new ObjectMapper();
 
     @Override
